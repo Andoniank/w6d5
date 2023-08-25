@@ -1,0 +1,10 @@
+<ul>
+	<% @cats.each do |cat| %>
+		<a href="<%= cat_url(cat) %>">Cat Show Page</a> 
+		<li>
+			<%= render 'partial', cat: cat %>
+		</li>
+	<% end %>
+</ul>
+
+

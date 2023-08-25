@@ -1,0 +1,19 @@
+<h1>User Show page</h1>
+
+<a href="<%= cats_url %>">User Index Page</a>
+
+<br>
+<!--
+<a href="<%= edit_user_url(@user) %>">Go To Edit User Page</a> 
+-->
+
+<%= render ‘partial’, cat: @cat %>
+<br>
+
+
+<!--
+<form action="<%= user_url(@user) %>" methods="POST">
+	<input type="hidden" name="_method" value="DELETE">
+	<input type="submit" value="Delete User">
+</form> 
+-->
